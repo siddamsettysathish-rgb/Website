@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>DevOps Demo</title>
+  <meta charset="UTF-8">
+  <title>DevOps CI/CD Demo</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello from CI/CD Pipeline!</h1>
-  <p>Git → Jenkins → Docker → Trivy → Kubernetes → ArgoCD</p>
+  <div class="container">
+    <h1>🚀 DevOps CI/CD Pipeline Demo</h1>
+    <p class="subtitle">This site was built, scanned, and deployed automatically.</p>
+
+    <div class="pipeline">
+      <div class="stage">
+        <div class="icon">📦</div>
+        <p>Git</p>
+      </div>
+      <div class="arrow">→</div>
+      <div class="stage">
+        <div class="icon">⚙️</div>
+        <p>Jenkins</p>
+      </div>
+      <div class="arrow">→</div>
+      <div class="stage">
+        <div class="icon">🐳</div>
+        <p>Docker</p>
+      </div>
+      <div class="arrow">→</div>
+      <div class="stage">
+        <div class="icon">🛡️</div>
+        <p>Trivy</p>
+      </div>
+      <div class="arrow">→</div>
+      <div class="stage">
+        <div class="icon">☸️</div>
+        <p>Kubernetes</p>
+      </div>
+      <div class="arrow">→</div>
+      <div class="stage">
+        <div class="icon">🔄</div>
+        <p>ArgoCD</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Build Info</h2>
+      <p><strong>Version:</strong> v1.0</p>
+      <p><strong>Status:</strong> <span class="badge">Running</span></p>
+    </div>
+
+    <footer>
+      <p>Built with ❤️ using Git → Jenkins → Docker → Trivy → Kubernetes → ArgoCD</p>
+    </footer>
+  </div>
 </body>
 </html>
