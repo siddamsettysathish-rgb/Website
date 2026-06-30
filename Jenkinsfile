@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "yourdockerhubuser/website"
+        DOCKER_IMAGE = "sathishsiddamsetty/website"
         IMAGE_TAG = "${env.BUILD_NUMBER}"
         REGISTRY_CREDENTIALS = "dockerhub-creds"
         GIT_CREDENTIALS = "github-creds"
