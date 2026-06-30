@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: website
-          image: sathishsiddamsetty/website:5
+          image: sathishsiddamsetty/website:7
           ports:
             - containerPort: 80
