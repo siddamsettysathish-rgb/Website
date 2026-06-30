@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: website
-          image: yourdockerhubuser/website:1
+          image: sathishsiddamsetty/website:5
           ports:
             - containerPort: 80
