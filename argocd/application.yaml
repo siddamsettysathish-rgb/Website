@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/yourusername/website.git
+    repoURL: https://github.com/siddamsettysathish-rgb/Website.git
     targetRevision: main
     path: k8s
   destination:
